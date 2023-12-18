@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compose Mail</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<div class="video-container">
+<video autoplay muted loop id="bg-video">
+    <source src="christmas-bg.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="container">
+  <div class="compose-form">
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button onclick="sendMail()">Send</button>
+  </div>
+</div>
+
+<script>
+  function sendMail() {
+    alert('Mail sent! (This is a placeholder)');
+  }
+</script>
+
+<button type="submit" class="button1" style = "background-color: lavender;"><a href=index2.html>Thank You</a></button>
+
+</body>
+</html>
